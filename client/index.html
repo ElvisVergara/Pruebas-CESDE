@@ -1,0 +1,6 @@
+<script>
+    fetch('http://localhost:8080/api/personas/hola' )
+    .then(res => res.text())
+    .then(res => console.log(res))
+    .catch(e => console.log(e))
+</script>
